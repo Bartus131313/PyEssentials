@@ -1,0 +1,21 @@
+[project]
+name = "PyEssentials"
+version = "0.0.1"
+
+[metadata]
+description = "A collection of essential utilities and classes."
+dependencies = ["random", "colorama"]
+requires-python = ">=3.12"
+authors = [
+  {name = "BartekKansy", email = "kansy.bartosz@interia.pl"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+license = {text = "LICENSE"}
+keywords = ["python", "classes", "utilities"]
+
+[build-system]
+requires = ["setuptools>=40.8.0"]
+build-backend = "setuptools.build_meta:__legacy__"
